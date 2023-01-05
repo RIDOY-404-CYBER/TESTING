@@ -1,6 +1,6 @@
 import os, sys
 os.system("git pull")
 try:
-    __import__("SEX2").rmx()
+    __import__("acca").menu()
 except Exception as e:
     exit(str(e))
